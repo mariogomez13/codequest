@@ -1,0 +1,17 @@
+{
+    "usuarios": [
+        {
+            "id":1,
+            "nombre" : "Mario",
+            "contrasenia" : "1234",
+            "correo" : "m@m.es"  
+        },
+    
+        {
+            "id":2,
+            "nombre" : "Jose",
+            "contrasenia" : "5678",
+            "correo" : "j@j.es"  
+        }
+    ]  
+}   

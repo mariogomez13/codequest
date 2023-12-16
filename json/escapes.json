@@ -1,0 +1,34 @@
+{
+    "escapes": [
+        {
+            "id":1,
+            "titulo" : "CiberRoom",
+            "descripcion" : "¿Conseguirás salir de esta habitación utilizando tus conocimientos de Hacker?",
+            "detalle" : "Sumérgete en esta aventura de escape tratando de resolver los puzzles y escapar pensando como un Hacker",
+            "dificultad" : "Fácil", 
+            "Duración" : "90 min",
+            "miniatura" : "../assets/img/cibersecurity.jpg"
+        },
+    
+        {
+            "id":2,
+            "titulo" : "MathRoom",
+            "descripcion" : "Intenta escapar utilizando tu pensamiento matemático",
+            "detalle" : "Sumérgete en esta aventura de escape tratando de resolver los puzzles y escapar pensando como un Hacker",
+            "dificultad" : "Fácil", 
+            "Duración" : "90 min",
+            "miniatura" : "../assets/img/cibersecurity.jpg"
+        },
+
+        {
+            "id":3,
+            "titulo" : "JoseRoom",
+            "descripcion" : "Intenta escapar utilizando tu pensamiento josélico",
+            "detalle" : "Escapa del cortijo",
+            "dificultad" : "Meida", 
+            "Duración" : "120 min",
+            "miniatura" : "../assets/img/cibersecurity.jpg"
+        }
+    ]  
+}   
+        

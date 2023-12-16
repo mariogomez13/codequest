@@ -1,0 +1,153 @@
+/*------------------ RESET ESTILOS NAVEGADORES ------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*------------------ MEDIA QUERY ------------------*/
+
+
+
+
+
+
+/*------------------ MIS CLASES PERSONALIZADAS ------------------*/
+
+.app-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1320px;
+}
+
+.menu {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: 1em;
+}
+
+.body-content {
+    width: 92%;
+    margin: 20px auto;
+
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+        "header     header      header      header      header"
+        "filters    cardgrid    cardgrid    cardgrid    tokens"
+        "filters    cardgrid    cardgrid    cardgrid    tokens"
+        "footer     footer      footer      footer      footer"
+    ;
+    grid-template-columns: repeat(5, 1Fr);
+}
+
+.menu-nav {
+    
+}
+
+.navbar menu {
+    /* DISTRIBUCION EXTERIOR - GRID */
+    grid-area: header;
+    background-color: aquamarine;
+}
+
+.cards-container {
+    /* DISTRIBUCION EXTERIOR - GRID */
+    grid-area: cardgrid;
+
+    /* DISTRIBUCION INTERIOR - FLEXBOX */
+    /*padding: 2em;*/
+    display: flex;
+    margin: 0 auto;
+    /*width: 70%;*/
+    /* background-color: white; */
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    gap: 20px; /* GAP BETWEEN CARDS*/
+    
+}
+
+.filters-container {
+    /* DISTRIBUCION EXTERIOR - GRID */
+    grid-area: filters;
+    display: flex;
+    justify-content: center;
+    color: white;
+    max-width: 227px;
+}
+
+.tokens-container {
+    /* DISTRIBUCION EXTERIOR - GRID */
+    grid-area: tokens;
+    display: flex;
+    justify-content: center;
+    color: white;
+    max-width: 227px;
+}
+
+.footer {
+    /* DISTRIBUCION EXTERIOR - GRID */
+    grid-area: footer;
+    background-color: chocolate;
+}
+
+[class^=card-content-] {
+}
+
+[class^=card-] {
+    /* DISTRIBUCIÓN */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    border-radius: 8px; 
+    margin: 0;
+    color: white;
+    width: 350px;
+
+    /* ESTILO */
+    
+}
+
+[class^=card-] img {
+    width: 200px;
+}
+
+
+/*------------------ ESTILOS SOBRE ELEMENTOS ------------------*/
+html {
+    background: url(/assets/img/bckg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+
+/*------------------ CSS GRID ------------------*/
+@media screen and (max-width:1320px) {
+
+    .body-content {
+        display: grid;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        grid-template-areas: 
+        "header         header          header"
+        "filters        cardgrid        tokens"
+        "footer         footer          footer"
+    ;
+    grid-template-columns: repeat(3, 1Fr);
+    }
+    
+    .cards-container {
+        justify-content: space-around;
+    }
+
+  
+}
