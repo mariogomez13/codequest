@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+
 /*------------------ RESET ESTILOS NAVEGADORES ------------------*/
 
 * {
@@ -5,8 +7,95 @@
     padding: 0;
 }
 
-/*------------------ MEDIA QUERY ------------------*/
+/*------------------ ESTILOS SOBRE ELEMENTOS ------------------*/
+h1 {
+    margin: 0.37em 0;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+html {
+    background: url(/assets/img/bckg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body,
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: "Nunito", sans-serif; }
+
+/*------------------ Menu ------------------*/
+
+/* Estilos de la barra de navegación */
+header {
+    /* background-color: #fff; Fondo blanco */
+    border-bottom: 2px solid #ffffff; /* Borde inferior azul */
+    padding: 15px 50px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .navbar-logo {
+    flex: 1;
+  }
+  
+  .navbar-logo .logo {
+    font-size: 24px;
+    color: #ffffff; /* Texto azul */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar-links ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar-links ul li {
+    margin-right: 20px;
+  }
+  
+  .navbar-links ul li a {
+    color: #ffffff; /* Texto azul */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar-auth .btn-login {
+    padding: 8px 16px;
+    background-color: #2980b9; /* Fondo azul */
+    color: #fff; /* Texto blanco */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-auth .btn-login:hover {
+    background-color: #34495e; /* Cambio de color al pasar el ratón */
+  }
 
 
 
@@ -19,6 +108,8 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 1320px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .menu {
@@ -42,10 +133,6 @@
         "footer     footer      footer      footer      footer"
     ;
     grid-template-columns: repeat(5, 1Fr);
-}
-
-.menu-nav {
-    
 }
 
 .navbar menu {
@@ -120,21 +207,14 @@
 }
 
 
-/*------------------ ESTILOS SOBRE ELEMENTOS ------------------*/
-html {
-    background: url(/assets/img/bckg.jpg) no-repeat center center fixed;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-}
 
 
-/*------------------ CSS GRID ------------------*/
-@media screen and (max-width:1320px) {
+/*------------------ RESPONSIVE ------------------*/
+@media screen and (max-width:1336px) {
 
     .body-content {
         display: grid;
-        width: 100%;
+        width: 70%;
         margin-left: auto;
         margin-right: auto;
         grid-template-areas: 
