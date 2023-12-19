@@ -153,7 +153,7 @@ header {
     /* background-color: white; */
     flex-wrap: wrap;
     align-content: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px; /* GAP BETWEEN CARDS*/
     
 }
@@ -164,7 +164,7 @@ header {
     display: flex;
     justify-content: center;
     color: white;
-    max-width: 227px;
+    width: 227px;
 }
 
 .tokens-container {
@@ -173,7 +173,7 @@ header {
     display: flex;
     justify-content: center;
     color: white;
-    max-width: 227px;
+    width: 227px;
 }
 
 .footer {
@@ -222,11 +222,11 @@ header {
         "filters        cardgrid        tokens"
         "footer         footer          footer"
     ;
-    grid-template-columns: repeat(3, 1Fr);
+    grid-template-columns: repeat(5, 1Fr);
     }
     
     .cards-container {
-        justify-content: space-around;
+        justify-content: center;
     }
 
   

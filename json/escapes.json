@@ -3,7 +3,7 @@
         {
             "id":1,
             "titulo" : "CiberRoom",
-            "descripcion" : "¿Conseguirás salir de esta habitación utilizando tus conocimientos de Hacker?",
+            "descripcion" : "Piensa lo menos posible. Analiza, hackea y escapa",
             "detalle" : "Sumérgete en esta aventura de escape tratando de resolver los puzzles y escapar pensando como un Hacker",
             "dificultad" : "Fácil", 
             "Duración" : "90 min",
@@ -17,17 +17,57 @@
             "detalle" : "Sumérgete en esta aventura de escape tratando de resolver los puzzles y escapar pensando como un Hacker",
             "dificultad" : "Fácil", 
             "Duración" : "90 min",
-            "miniatura" : "../assets/img/cibersecurity.jpg"
+            "miniatura" : "../assets/img/math.jpg"
         },
 
         {
             "id":3,
-            "titulo" : "JoseRoom",
-            "descripcion" : "Intenta escapar utilizando tu pensamiento josélico",
-            "detalle" : "Escapa del cortijo",
-            "dificultad" : "Meida", 
+            "titulo" : "XROOM",
+            "descripcion" : "Prueba tu ingenio con este escape de terror",
+            "detalle" : "Escapa de la sala negra",
+            "dificultad" : "Media", 
             "Duración" : "120 min",
-            "miniatura" : "../assets/img/cibersecurity.jpg"
+            "miniatura" : "../assets/img/horror.jpg"
+        },
+
+        {
+            "id":4,
+            "titulo" : "AlgoritmRoom",
+            "descripcion" : "Piensa y crea algoritmos para escapar de la sala",
+            "detalle" : "Escapa de la sala",
+            "dificultad" : "Dificil", 
+            "Duración" : "90 min",
+            "miniatura" : "../assets/img/robot.jfif"
+        },
+
+        {
+            "id":5,
+            "titulo" : "EscapeRING",
+            "descripcion" : "Encuentra el anillo y escapa con él sin ser detectado",
+            "detalle" : "Escapa de la sala",
+            "dificultad" : "Fácil", 
+            "Duración" : "120 min",
+            "miniatura" : "../assets/img/ring.jpg"
+        },
+
+        {
+            "id":6,
+            "titulo" : "DEVILROOM",
+            "descripcion" : "ESCAPA-CON-VIDA",
+            "detalle" : "Escapa de la sala",
+            "dificultad" : "IMPOSIBLE", 
+            "Duración" : "120 min",
+            "miniatura" : "../assets/img/devil.jpg"
+        },
+
+        {
+            "id":7,
+            "titulo" : "TRYROOM",
+            "descripcion" : "Aquí nada es lo que parece",
+            "detalle" : "Escapa",
+            "dificultad" : "Media", 
+            "Duración" : "120 min",
+            "miniatura" : "../assets/img/colores-ciudad.jfif"
         }
     ]  
 }   
